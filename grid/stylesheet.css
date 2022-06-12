@@ -1,0 +1,22 @@
+body{
+  background-color: lightblue;
+  color: grey;
+}
+.nav_bar{
+  background-color: white;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.left-content {
+  background-color: white;
+}
+
+.right_content {
+  text-align: right;
+  background-color: white;
+}

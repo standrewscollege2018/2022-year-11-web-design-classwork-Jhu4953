@@ -1,0 +1,49 @@
+body{
+  background-color: rgb(255, 200, 0);
+
+  font-family: Calibri, sans serif;
+
+  margin: 50px;
+  padding: 0px
+
+}
+@font-face {
+  font-family: Photoshoot;
+  src: url(Europe/Photoshoot.ttf);
+}
+h1{
+  font-family: Photoshoot;
+}
+
+.nav_bar{
+  background-color: white;
+  text-align: right;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.left-content {
+  background-color: white;
+}
+
+.right_content {
+  text-align: right;
+  background-color: white;
+}
+
+.content-container {
+  display:grid;
+  grid-template-columns:   repeat(4, 1fr);
+  grid-column-gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid rgb(2, 4, 6);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
